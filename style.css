@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+.container {
+  max-width: 50rem;
+  margin: 30rem auto;
+}
+
+.nft-title {
+  font-size: 2.4rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.nft-description {
+  color: hsl(215, 51%, 70%);
+}
+
+.card-container {
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+}
+
+.nft-price-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nft-price {
+  color: hsl(178, 100%, 50%);
+}
+
+.nft-days {
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-creator-container {
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.nft-creator {
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-creator span {
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
