@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ralphvirtucio/Nft-Preview-Card)
-- Live Site URL: [Add live site URL here](https://ralphvirtucio.github.io/Nft-Preview-Card/)
+- Solution URL: [https://github.com/ralphvirtucio/Nft-Preview-Card](https://github.com/ralphvirtucio/Nft-Preview-Card)
+- Live Site URL: [https://ralphvirtucio.github.io/Nft-Preview-Card/](https://ralphvirtucio.github.io/Nft-Preview-Card/)
 
 ## My process
 
