@@ -10,34 +10,99 @@ html {
   font-size: 62.5%;
 }
 
-/* body {
+body {
   background-color: hsl(217, 54%, 11%);
   font-family: 'Outfit', sans-serif;
   line-height: 1;
   font-size: 1.5rem;
 }
+
+a {
+  text-decoration: none;
+}
+
 .container {
-  max-width: 50rem;
-  margin: 30rem auto;
-}
-
-.nft-title {
-  font-size: 2.4rem;
-  color: hsl(0, 0%, 100%);
-}
-
-.nft-description {
-  color: hsl(215, 51%, 70%);
+  max-width: 30rem;
+  margin: 20rem auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-container {
   background-color: hsl(216, 50%, 16%);
-  padding: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+.nft-logo {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem;
+}
+
+.nft-logo-container {
+  position: relative;
+}
+
+.nft-icon-view {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 27rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.nft-icon-view:hover {
+  background-color: hsla(178, 100%, 50%, 0.589);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 27rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.nft-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.nft-title:link,
+.nft-title:visited {
+  color: hsl(0, 0%, 100%);
+}
+
+.nft-title:active,
+.nft-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.nft-description {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 2rem;
 }
 
 .nft-price-container {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nft-price-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .nft-price {
@@ -50,20 +115,29 @@ html {
 
 .nft-creator-container {
   border-top: 1px solid hsl(215, 32%, 27%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
 }
 
+.nft-creator-image {
+  width: 3rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
 .nft-creator {
   color: hsl(215, 51%, 70%);
 }
 
-.nft-creator span {
+.nft-creator-name {
   color: hsl(0, 0%, 100%);
 }
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.nft-creator-name:link,
+:visited {
+  color: hsl(0, 0%, 100%);
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+.nft-creator-name:active,
+.nft-creator-name:hover {
+  color: hsl(178, 100%, 50%);
+}
